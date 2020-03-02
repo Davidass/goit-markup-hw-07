@@ -1,0 +1,44 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --second-fond-family: 'Roboto', sans-serif;
+  --color-menu-hover: #1abc9c;
+  --color-menu: #0f0101;
+  --color-top-menu: #fff;
+  --color-logo: #555252;
+  --color-products: #e9f0fd;
+  --timing-fn: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #515151;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.
